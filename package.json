@@ -2,7 +2,9 @@
   "name": "solana-sniper-bot",
   "author": "SPLBOT",
   "scripts": {
-    "buy": "ts-node buy.ts"
+    "buy": "ts-node buy.ts",
+    "pumpswap": "ts-node pumpswap-bot.ts",
+    "check": "ts-node check-setup.ts"
   },
   "dependencies": {
     "@project-serum/serum": "^0.13.65",
